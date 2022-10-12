@@ -1,0 +1,23 @@
+{
+    "category": "plugins",
+    "display": "serverauto",
+    "fields": {
+        "ACi": {
+            "caption": "elementText",
+            "editor": "DynamicValue",
+            "name": "elementtext",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ACj": {
+            "caption": "ans",
+            "name": "ans",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

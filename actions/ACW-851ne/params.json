@@ -1,0 +1,31 @@
+{
+    "category": "plugins",
+    "display": "auto",
+    "fields": {
+        "ACY": {
+            "caption": "elementid",
+            "editor": "DynamicValue",
+            "name": "elementid",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACh": {
+            "caption": "textfield",
+            "editor": "DynamicValue",
+            "long_text": false,
+            "name": "textfield",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ACb": {
+            "caption": "data",
+            "name": "data",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "client_side",
+    "use_packages": true
+}

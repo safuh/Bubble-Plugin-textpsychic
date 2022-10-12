@@ -1,0 +1,147 @@
+{
+    "auth": "none",
+    "calls": {
+        "AAj": {
+            "body_type": "form_data",
+            "data_type": "text",
+            "get_headers": false,
+            "initialized": true,
+            "method": "get",
+            "name": "UrlSummary",
+            "no_types": true,
+            "params": {
+                "AAk": {
+                    "allow_blank": false,
+                    "doc": "Url for the webpage to be summarized. \n(it should be a complete url with scheme and full path e.g https://en.wikipedia.org/wiki/Data_science)",
+                    "key": "url",
+                    "optional": false,
+                    "private": true,
+                    "querystring": false,
+                    "value": "https://en.wikipedia.org/wiki/Data_science"
+                }
+            },
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1665574252815x260673226297311230.plugin_api.AAj",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAj\":{\"caption\":\"UrlSummary\",\"fields\":{\"_p_body\":{\"ret_value\":\"text\",\"caption\":\"body\",\"sample_value\":\"Many statisticians, including Nate Silver , have argued that data science is not a new field, but rather another name for statistics.[17] Andrew Gelman of Columbia University has described statistics as a nonessential part of data science.Stanford professor David Donoho writes that data science is not distinguished from statistics by the size of datasets or use of computing, and that many graduate programs misleadingly advertise their analytics and statistics training as the essence of a data-science program.[3] In 1996, the International Federation of Classification Societies became the first conference to specifically feature data science as a topic.He reasoned that a new name would help statistics shed inaccurate stereotypes, such as being synonymous with accounting, or limited to describing data.During the 1990s, popular terms for the process of finding patterns in datasets (which were increasingly large) included \\\"knowledge discovery\\\" and \\\" data mining \\\".[25] In a 2001 paper, he advocated an expansion of statistics beyond theory into technical areas; because this would significantly change the field, it warranted a new name.The professional title of \\\"data scientist\\\" has been attributed to DJ Patil and Jeff Hammerbacher in 2008.In Hayashi, Chikio; Yajima, Keiji; Bock, Hans-Hermann; Ohsumi, Noboru; Tanaka, Yutaka; Baba, Yasumasa (eds.).^ \\\"US NSF – NSB-05-40, Long-Lived Digital Data Collections Enabling Research and Education in the 21st Century\\\" .\",\"path\":[\"body\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"Many statisticians, including Nate Silver , have argued that data science is not a new field, but rather another name for statistics.[17] Andrew Gelman of Columbia University has described statistics as a nonessential part of data science.Stanford professor David Donoho writes that data science is not distinguished from statistics by the size of datasets or use of computing, and that many graduate programs misleadingly advertise their analytics and statistics training as the essence of a data-science program.[3] In 1996, the International Federation of Classification Societies became the first conference to specifically feature data science as a topic.He reasoned that a new name would help statistics shed inaccurate stereotypes, such as being synonymous with accounting, or limited to describing data.During the 1990s, popular terms for the process of finding patterns in datasets (which were increasingly large) included \\\\\\\"knowledge discovery\\\\\\\" and \\\\\\\" data mining \\\\\\\".[25] In a 2001 paper, he advocated an expansion of statistics beyond theory into technical areas; because this would significantly change the field, it warranted a new name.The professional title of \\\\\\\"data scientist\\\\\\\" has been attributed to DJ Patil and Jeff Hammerbacher in 2008.In Hayashi, Chikio; Yajima, Keiji; Bock, Hans-Hermann; Ohsumi, Noboru; Tanaka, Yutaka; Baba, Yasumasa (eds.).^ \\\\\\\"US NSF – NSB-05-40, Long-Lived Digital Data Collections Enabling Research and Education in the 21st Century\\\\\\\" .\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]},\"_p_headers.connection\":{\"ret_value\":\"text\",\"caption\":\"headers connection\",\"sample_value\":\"keep-alive\",\"path\":[\"headers\",\"connection\"]},\"_p_headers.server\":{\"ret_value\":\"text\",\"caption\":\"headers server\",\"sample_value\":\"gunicorn\",\"path\":[\"headers\",\"server\"]},\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"sample_value\":\"Thu, 15 Sep 2022 09:07:43 GMT\",\"path\":[\"headers\",\"date\"]},\"_p_headers.content-type\":{\"ret_value\":\"text\",\"caption\":\"headers content-type\",\"sample_value\":\"text/html; charset=utf-8\",\"path\":[\"headers\",\"content-type\"]},\"_p_headers.x-frame-options\":{\"ret_value\":\"text\",\"caption\":\"headers x-frame-options\",\"sample_value\":\"DENY\",\"path\":[\"headers\",\"x-frame-options\"]},\"_p_headers.content-length\":{\"ret_value\":\"text\",\"caption\":\"headers content-length\",\"sample_value\":\"1476\",\"path\":[\"headers\",\"content-length\"]},\"_p_headers.x-content-type-options\":{\"ret_value\":\"text\",\"caption\":\"headers x-content-type-options\",\"sample_value\":\"nosniff\",\"path\":[\"headers\",\"x-content-type-options\"]},\"_p_headers.referrer-policy\":{\"ret_value\":\"text\",\"caption\":\"headers referrer-policy\",\"sample_value\":\"same-origin\",\"path\":[\"headers\",\"referrer-policy\"]},\"_p_headers.cross-origin-opener-policy\":{\"ret_value\":\"text\",\"caption\":\"headers cross-origin-opener-policy\",\"sample_value\":\"same-origin\",\"path\":[\"headers\",\"cross-origin-opener-policy\"]},\"_p_headers.via\":{\"ret_value\":\"text\",\"caption\":\"headers via\",\"sample_value\":\"1.1 vegur\",\"path\":[\"headers\",\"via\"]}}}}",
+            "url": "https://blinkr-app.herokuapp.com/",
+            "wrap_error": false
+        },
+        "AAx": {
+            "body": "",
+            "data_type": "text",
+            "get_headers": false,
+            "initialized": true,
+            "method": "get",
+            "name": "Abstractive summary",
+            "no_types": true,
+            "params": {
+                "AAz": {
+                    "doc": "Text to be summarized.",
+                    "key": "text",
+                    "private": true,
+                    "value": "One month after the United States began what has become a troubled rollout of a national COVID vaccination campaign, the effort is finally gathering real steam. Close to a million doses -- over 951,000, to be more exact -- made their way into the arms of Americans in the past 24 hours, the U.S. Centers for Disease Control and Prevention reported Wednesday. That is the largest number of shots given in one day since the rollout began and a big jump from the previous day, when just under 340,000 doses were given, CBS News reported. That number is likely to jump quickly after the federal government on Tuesday gave states the OK to vaccinate anyone over 65 and said it would release all the doses of vaccine it has available for distribution. Meanwhile, a number of states have now opened mass vaccination sites in an effort to get larger numbers of people inoculated, CBS News reported."
+                }
+            },
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1665574252815x260673226297311230.plugin_api.AAx",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAx\":{\"caption\":\"Abstractive summary\",\"fields\":{\"_p_summary_text\":{\"ret_value\":\"text\",\"caption\":\"summary_text\",\"sample_value\":\"Over 951,000 doses of the COVID vaccine were given in the past 24 hours. That is the largest number of shots given in one day since the rollout began. A number of states have now opened mass vaccination sites in an effort to get larger numbers of people inoculated.\",\"path\":[\"summary_text\"]}}}}",
+            "url": "https://text-psychic.herokuapp.com/getsummary"
+        },
+        "ABH": {
+            "data_type": "JSON",
+            "initialized": true,
+            "method": "get",
+            "name": "Lang detector",
+            "params": {
+                "ABK": {
+                    "doc": "Text to be detected.",
+                    "key": "text",
+                    "private": true,
+                    "value": "John Doe has been working for Microsoft in Seattle since 1999."
+                }
+            },
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1665574252815x260673226297311230.plugin_api.ABH",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ABH\":{\"caption\":\"Lang detector\",\"fields\":{\"_p_lang\":{\"ret_value\":\"text\",\"caption\":\"lang\",\"sample_value\":\"en\",\"path\":[\"lang\"]},\"_p_confidence\":{\"ret_value\":\"number\",\"caption\":\"confidence\",\"sample_value\":1,\"path\":[\"confidence\"]}}}}",
+            "url": "https://text-psychic.herokuapp.com/langdetect"
+        },
+        "ABM": {
+            "0": "A",
+            "1": "B",
+            "2": "L",
+            "data_type": "text",
+            "get_headers": false,
+            "initialized": true,
+            "method": "get",
+            "name": "TextTranslator",
+            "no_types": true,
+            "params": {
+                "ABK": {
+                    "doc": "Text to be translated.",
+                    "key": "text",
+                    "private": true,
+                    "value": "John Doe has been working for Microsoft in Seattle since 1999."
+                },
+                "ABO": {
+                    "doc": "Target Language. Use google language codes as shown here: https://developers.google.com/admin-sdk/directory/v1/languages",
+                    "key": "dest",
+                    "private": true,
+                    "value": "ar"
+                }
+            },
+            "publish_as": "data",
+            "rank": 3,
+            "ret_value": "api.1665574252815x260673226297311230.plugin_api.ABM",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABM\":{\"caption\":\"TextTranslator\",\"fields\":{\"_p_translation_text\":{\"ret_value\":\"text\",\"caption\":\"translation_text\",\"sample_value\":\"جان ڈو 1999 سے سیئٹل میں مائیکروسافٹ کے لیے کام کر رہا ہے۔\",\"path\":[\"translation_text\"]}}}}",
+            "url": "https://text-psychic.herokuapp.com/langtranslate",
+            "wrap_error": false
+        },
+        "ABl": {
+            "body": "",
+            "get_headers": true,
+            "initialized": false,
+            "method": "post",
+            "name": "Text2Image",
+            "params": {
+                "ABm": {
+                    "doc": "text to be converted",
+                    "key": "text",
+                    "private": true,
+                    "value": "cat drinking milk"
+                }
+            },
+            "publish_as": "data",
+            "rank": 4,
+            "should_reinitialize": true,
+            "url": "https://api.deepai.org/api/text2img",
+            "wrap_error": false
+        },
+        "ACI": {
+            "data_type": "text",
+            "initialized": true,
+            "method": "get",
+            "name": "AutoCorrect",
+            "no_types": true,
+            "params": {
+                "ACM": {
+                    "key": "text",
+                    "private": true,
+                    "value": "These is not a public portals"
+                }
+            },
+            "publish_as": "action",
+            "rank": 5,
+            "should_reinitialize": true,
+            "url": "https://blinkr-app.herokuapp.com/correct"
+        }
+    },
+    "human": "I-summ",
+    "token_param_name": ""
+}
