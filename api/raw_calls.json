@@ -28,29 +28,6 @@
             "url": "https://blinkr-app.herokuapp.com/",
             "wrap_error": false
         },
-        "AAx": {
-            "body": "",
-            "data_type": "text",
-            "get_headers": false,
-            "initialized": true,
-            "method": "get",
-            "name": "Abstractive summary",
-            "no_types": true,
-            "params": {
-                "AAz": {
-                    "doc": "Text to be summarized.",
-                    "key": "text",
-                    "private": true,
-                    "value": "One month after the United States began what has become a troubled rollout of a national COVID vaccination campaign, the effort is finally gathering real steam. Close to a million doses -- over 951,000, to be more exact -- made their way into the arms of Americans in the past 24 hours, the U.S. Centers for Disease Control and Prevention reported Wednesday. That is the largest number of shots given in one day since the rollout began and a big jump from the previous day, when just under 340,000 doses were given, CBS News reported. That number is likely to jump quickly after the federal government on Tuesday gave states the OK to vaccinate anyone over 65 and said it would release all the doses of vaccine it has available for distribution. Meanwhile, a number of states have now opened mass vaccination sites in an effort to get larger numbers of people inoculated, CBS News reported."
-                }
-            },
-            "publish_as": "action",
-            "rank": 1,
-            "ret_value": "api.1665574252815x260673226297311230.plugin_api.AAx",
-            "should_reinitialize": true,
-            "types": "{\"plugin_api.AAx\":{\"caption\":\"Abstractive summary\",\"fields\":{\"_p_summary_text\":{\"ret_value\":\"text\",\"caption\":\"summary_text\",\"sample_value\":\"Over 951,000 doses of the COVID vaccine were given in the past 24 hours. That is the largest number of shots given in one day since the rollout began. A number of states have now opened mass vaccination sites in an effort to get larger numbers of people inoculated.\",\"path\":[\"summary_text\"]}}}}",
-            "url": "https://text-psychic.herokuapp.com/getsummary"
-        },
         "ABH": {
             "data_type": "JSON",
             "initialized": true,
@@ -65,7 +42,7 @@
                 }
             },
             "publish_as": "data",
-            "rank": 2,
+            "rank": 1,
             "ret_value": "api.1665574252815x260673226297311230.plugin_api.ABH",
             "should_reinitialize": false,
             "types": "{\"plugin_api.ABH\":{\"caption\":\"Lang detector\",\"fields\":{\"_p_lang\":{\"ret_value\":\"text\",\"caption\":\"lang\",\"sample_value\":\"en\",\"path\":[\"lang\"]},\"_p_confidence\":{\"ret_value\":\"number\",\"caption\":\"confidence\",\"sample_value\":1,\"path\":[\"confidence\"]}}}}",
@@ -96,31 +73,11 @@
                 }
             },
             "publish_as": "data",
-            "rank": 3,
+            "rank": 2,
             "ret_value": "api.1665574252815x260673226297311230.plugin_api.ABM",
             "should_reinitialize": true,
             "types": "{\"plugin_api.ABM\":{\"caption\":\"TextTranslator\",\"fields\":{\"_p_translation_text\":{\"ret_value\":\"text\",\"caption\":\"translation_text\",\"sample_value\":\"جان ڈو 1999 سے سیئٹل میں مائیکروسافٹ کے لیے کام کر رہا ہے۔\",\"path\":[\"translation_text\"]}}}}",
             "url": "https://text-psychic.herokuapp.com/langtranslate",
-            "wrap_error": false
-        },
-        "ABl": {
-            "body": "",
-            "get_headers": true,
-            "initialized": false,
-            "method": "post",
-            "name": "Text2Image",
-            "params": {
-                "ABm": {
-                    "doc": "text to be converted",
-                    "key": "text",
-                    "private": true,
-                    "value": "cat drinking milk"
-                }
-            },
-            "publish_as": "data",
-            "rank": 4,
-            "should_reinitialize": true,
-            "url": "https://api.deepai.org/api/text2img",
             "wrap_error": false
         },
         "ACI": {
@@ -137,7 +94,7 @@
                 }
             },
             "publish_as": "action",
-            "rank": 5,
+            "rank": 3,
             "should_reinitialize": true,
             "url": "https://blinkr-app.herokuapp.com/correct"
         }
